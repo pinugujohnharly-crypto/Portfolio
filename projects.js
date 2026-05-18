@@ -177,6 +177,7 @@ function openProjectModal(projectId) {
     modalBody.innerHTML = projectDetails[projectId];
     modal.classList.add("show");
     modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
     setupGalleryPreview();
 }
 
@@ -189,6 +190,7 @@ function closeModal() {
 
     modal.classList.remove("show");
     modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
 }
 
 document.querySelectorAll(".project-card").forEach((card) => {
