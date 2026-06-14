@@ -112,60 +112,106 @@ const projectDetails = {
             <button type="button" class="gallery-item"><img src="project-images/honkwang-user-management.png" alt="User management page"><span>User Management</span></button>
         </div>
     `,
-    lawcompendium: `
-        <div class="modal-hero modal-hero-compact">
+    itrack: `
+        <div class="modal-hero">
             <div>
-                <p class="project-label">Android Mobile App</p>
-                <h2 id="modalTitle">LawCompendium Mobile App</h2>
-                <p class="modal-subtitle">An Android law reference application built with Java and Firebase.</p>
+                <p class="project-label">Capstone Web Platform</p>
+                <h2 id="modalTitle">Itrack Capstone Tracker</h2>
+                <p class="modal-subtitle">An interactive platform for the College of Computer Studies to manage capstone proposals, milestones, reviews, approvals, and final submissions.</p>
             </div>
-            <div class="modal-app-mark">LC</div>
+            <img class="project-logo" src="project-images/itrack-college-logo.jpg" alt="College of Computer Studies logo">
         </div>
 
         <div class="project-tags">
-            <span>Android</span>
-            <span>Java</span>
-            <span>Firebase</span>
-            <span>Figma</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
         </div>
 
         <div class="project-summary-grid">
             <div>
                 <strong>Project Type</strong>
-                <span>Android mobile app</span>
+                <span>Academic capstone web platform</span>
             </div>
             <div>
                 <strong>Role</strong>
-                <span>Mobile app developer</span>
+                <span>Full-stack developer</span>
             </div>
             <div>
-                <strong>Platform</strong>
-                <span>Android</span>
+                <strong>Organization</strong>
+                <span>TRIMEX Colleges</span>
             </div>
             <div>
-                <strong>Features</strong>
-                <span>Login, bookmarks, offline mode</span>
+                <strong>Users</strong>
+                <span>Students, contributors, and administrators</span>
             </div>
         </div>
 
-        <h3>Project Overview</h3>
-        <p>LawCompendium is a mobile application designed to help users browse and save legal references. The app supports online data access, local caching, bookmarking, and offline reading.</p>
+        <div class="project-story">
+            <div class="story-panel story-panel-featured">
+                <span class="story-icon">01</span>
+                <h3>Project Overview</h3>
+                <p>Itrack centralizes capstone records so students and faculty can follow each project from proposal through final submission. It provides a structured workflow for uploading project files, reviewing submissions, monitoring progress, and keeping academic records organized.</p>
+            </div>
 
-        <h3>My Responsibilities</h3>
-        <ul>
-            <li>Designed the app screens and user flow in Figma.</li>
-            <li>Implemented authentication using Google Sign-In.</li>
-            <li>Built bookmarking and offline access features.</li>
-            <li>Connected Firebase data with local Room caching.</li>
-        </ul>
+            <div class="story-panel">
+                <span class="story-icon">02</span>
+                <h3>My Responsibilities</h3>
+                <ul class="styled-list">
+                    <li>Built responsive public, registration, and dashboard interfaces.</li>
+                    <li>Developed PHP and MySQL workflows for accounts and capstone records.</li>
+                    <li>Implemented file uploads, PDF previews, and record management tools.</li>
+                    <li>Added role-based controls for administrators and contributors.</li>
+                    <li>Created notifications, approval tools, filters, and upload statistics.</li>
+                </ul>
+            </div>
+        </div>
 
-        <h3>Main Features</h3>
-        <ul>
-            <li>Developed a law reference app with Firestore and Room caching.</li>
-            <li>Implemented Google Sign-In for user authentication.</li>
-            <li>Created bookmarking and offline mode features.</li>
-            <li>Designed the user interface and user experience using Figma.</li>
-        </ul>
+        <h3 class="section-kicker">Main Features</h3>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <span>Projects</span>
+                <h4>Centralized Records</h4>
+                <p>Stores capstone titles, authors, publication years, files, and project details in one system.</p>
+            </div>
+            <div class="feature-card">
+                <span>Uploads</span>
+                <h4>PDF Submission</h4>
+                <p>Allows authorized users to upload capstone documents and preview submitted PDF files.</p>
+            </div>
+            <div class="feature-card">
+                <span>Workflow</span>
+                <h4>Review and Approval</h4>
+                <p>Provides administrators with pending approval and uploaded-file management tools.</p>
+            </div>
+            <div class="feature-card">
+                <span>Access</span>
+                <h4>Role Management</h4>
+                <p>Separates student, contributor, and administrator capabilities through role-based access.</p>
+            </div>
+            <div class="feature-card">
+                <span>Updates</span>
+                <h4>Notifications</h4>
+                <p>Keeps users informed about relevant activity and changes within the platform.</p>
+            </div>
+            <div class="feature-card">
+                <span>Insights</span>
+                <h4>Upload Statistics</h4>
+                <p>Displays upload activity through dashboard statistics and chart-based summaries.</p>
+            </div>
+        </div>
+
+        <h3 class="section-kicker">Technical Highlights</h3>
+        <div class="highlight-strip">
+            <span>Responsive Bootstrap UI</span>
+            <span>PHP API endpoints</span>
+            <span>MySQL data storage</span>
+            <span>PDF file handling</span>
+            <span>Role-based permissions</span>
+        </div>
     `
 };
 
